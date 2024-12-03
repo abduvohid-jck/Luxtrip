@@ -1,0 +1,140 @@
+.experiance {
+  &__title {
+    text-align: center;
+    font-family: forum;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 58px;
+    background-image: url(/assets/icons/romb.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 23.64px;
+  }
+  &__link {
+    font-family: forum;
+    color: #79655e;
+    margin-bottom: 35px;
+  }
+  &__card {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0b2034 100%),
+      url(../../assets/images/austria.svg);
+    height: 570px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 34px;
+    padding-right: 36px;
+    padding-bottom: 35px;
+    position: relative;
+  }
+  &__cards {
+    gap: 30px;
+    margin-bottom: 126px;
+    display: flex;
+    justify-content: center;
+  }
+  &__card-top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+  &__card-info {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 35px;
+    align-items: center;
+  }
+  &__title-experiance {
+    font-family: Forum;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+  }
+  &__price {
+    margin-top: 30px;
+    font-family: forum;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.39px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+  }
+  &__price-euro {
+    font-family: Forum;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 23.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  &__card-2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0b2034 100%),
+      url(../../assets/images/peru.svg);
+    height: 570px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 34px;
+    padding-right: 36px;
+    padding-bottom: 35px;
+    position: relative;
+  }
+  &__card-3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0b2034 100%),
+      url(../../assets/images/croatia.svg);
+    height: 570px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 34px;
+    padding-right: 36px;
+    padding-bottom: 35px;
+    position: relative;
+  }
+  &__card-info-3 {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 180px;
+    padding-bottom: 35px;
+    align-items: center;
+  }
+}
+
+@media (max-width:1440px) {
+  .experiance{
+    &__link {
+      display: none;
+    }
+    &__card-info-3 {
+      gap: 0;
+    }
+    &__card-2{
+      display: none;
+    }
+    &__card-3{
+      display: none;
+    }
+  }
+}
